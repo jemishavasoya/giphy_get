@@ -74,7 +74,8 @@ class _MainViewState extends State<MainView>
             tabController: _tabController,
             scrollController: this._scrollController,
           )),
-          GiphyTabBottom()
+          // Todo Remove poweredby
+          // GiphyTabBottom()
         ],
       );
 }
