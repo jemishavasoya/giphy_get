@@ -71,13 +71,6 @@ class _GiphyGifWidgetState extends State<GiphyGifWidget> {
                       widget.gif.images!.fixedWidth.url,
                     ),
                   )),
-              widget.showGiphyLabel
-                  ? FittedBox(
-                      child: Text(
-                      l.poweredByGiphy,
-                      style: TextStyle(fontSize: 12),
-                    ))
-                  : Container()
             ],
           ),
           IgnorePointer(
