@@ -105,7 +105,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
                       decoration: InputDecoration(
                         filled: true,
                         prefixIcon: _searchIcon(),
-                        hintText: l.searchInputLabel,
+                        hintText: 'Search',
                         suffixIcon: IconButton(
                             icon: Icon(
                               Icons.clear,
