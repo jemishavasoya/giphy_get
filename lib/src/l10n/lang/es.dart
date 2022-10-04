@@ -23,7 +23,7 @@ class EsLocalizations extends GiphyGetUILocalizationLabels{
   final String poweredByGiphy;
 
   const EsLocalizations({
-    this.searchInputLabel = 'Buscar GIPHY',
+    this.searchInputLabel = 'Buscar',
     this.emojisLabel = 'Emojis',
     this.gifsLabel = 'Gifs',
     this.stickersLabel = 'Stickers',
