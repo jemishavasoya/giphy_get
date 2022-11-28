@@ -255,6 +255,9 @@ class _GiphyTabDetailState extends State<GiphyTabDetail> {
 
   // Return selected gif
   void _selectedGif(GiphyGif gif) {
+    if(GiphyType.emoji == widget.type){
+      gif.type = GiphyType.emoji;
+    }
     Navigator.pop(context, gif);
   }
 
